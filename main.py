@@ -86,6 +86,3 @@ for i in gen(myNums):
 print(myNums, end=" ")
 print()
 
-# dunder methods
-
-# iterators
