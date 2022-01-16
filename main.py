@@ -58,6 +58,18 @@ for i, val in enumerate(lst):
     print(val, end=" ")
 print()
 
+
+# printing index of key
+def search(array, key):
+    for index, item in enumerate(array):
+        if item == key:
+            print("Found at index: " + str(index))
+            break
+
+
+nums = [1, 45, 6, 87, 32, 67, 8, 9, 3]
+search(nums, 32)
+
 # swap with one line, no use of a temp
 x = 2
 y = 5
